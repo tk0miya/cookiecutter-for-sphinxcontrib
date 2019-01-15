@@ -1,0 +1,4 @@
+{
+  "package_name": "The name of the extension package",
+  "project_name": "sphinxcontrib-{{ cookiecutter.package_name }}"
+}
