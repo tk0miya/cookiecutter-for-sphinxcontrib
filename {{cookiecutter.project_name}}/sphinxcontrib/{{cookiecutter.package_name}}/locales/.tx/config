@@ -1,8 +1,8 @@
 [main]
 host = https://www.transifex.com
 
-[sphinx-1.sphinxcontrib-{ cookiecutter.package_name }}-pot]
-file_filter = <lang>/LC_MESSAGES/sphinxcontrib.{ cookiecutter.package_name }}.po
+[sphinx-1.sphinxcontrib-{{ cookiecutter.package_name }}-pot]
+file_filter = <lang>/LC_MESSAGES/sphinxcontrib.{{ cookiecutter.package_name }}.po
 minimum_perc = 0
 source_file = sphinxcontrib.{{ cookiecutter.package_name }}.pot
 source_lang = en

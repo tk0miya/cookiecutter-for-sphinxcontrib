@@ -1,5 +1,5 @@
-License for sphinxcontrib-jsmath
-================================
+License for sphinxcontrib-{{ cookiecutter.package_name }}
+=========================={{ '=' * cookiecutter.package_name|length }}
 
 Copyright (c) 2007-2019 by the Sphinx team
 (see https://github.com/sphinx-doc/sphinx/blob/master/AUTHORS).

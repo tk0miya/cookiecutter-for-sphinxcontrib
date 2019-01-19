@@ -35,7 +35,7 @@ setup(
     license='BSD',
     author='Georg Brandl',
     author_email='georg@python.org',
-    description='',
+    description=long_desc,
     long_description=long_desc,
     zip_safe=False,
     classifiers=[

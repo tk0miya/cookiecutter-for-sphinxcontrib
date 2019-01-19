@@ -6,12 +6,13 @@
     :license: BSD, see LICENSE for details.
 """
 
+from os import path
 from typing import Any, Dict
+
 from sphinx.application import Sphinx
-
-from sphinxcontrib.{{ cookiecutter.package_name}}.version import __version__
-
 from sphinx.locale import get_translation
+
+from sphinxcontrib.{{ cookiecutter.package_name }}.version import __version__
 
 package_dir = path.abspath(path.dirname(__file__))
 
