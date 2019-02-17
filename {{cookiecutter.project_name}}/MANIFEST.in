@@ -4,6 +4,6 @@ include CHANGES
 
 include tox.ini
 
-recursive-include sphinxcontrib/{{ cookiecutter.project_name }}/templates *
-recursive-include sphinxcontrib/{{ cookiecutter.project_name }}/locales *
+recursive-include sphinxcontrib/{{ cookiecutter.package_name }}/templates *
+recursive-include sphinxcontrib/{{ cookiecutter.package_name }}/locales *
 recursive-include tests *
